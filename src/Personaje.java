@@ -17,7 +17,7 @@ public class Personaje {
     }
 
     public void golpear(Personaje personaje){
-        personaje.setVida();
+        personaje.setVida(10);
     }
 
     public void recibirImpacto(double impacto){
